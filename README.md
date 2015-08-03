@@ -6,13 +6,14 @@ This Chrome extension determines how slanted your news source is and displays a 
 **How is the score calculated?**
 Using the Tim Groseclose and Jeff Milyo slant score, media outlets are assigned a score of 0-100. Here is how the scale breaks down:
 
-**0** - most conservative
-**100** - most liberal
+**0** : most conservative
+**100** : most liberal
 
 To find out more out, read about slant score on the [Freakanomics blog](http://goo.gl/olbFZM).
 
 ### Problem
 I was drawn to the exploration of media bias since Hurricane Katrina devastated New Orleans. Images poured out from various media outlets of survivors scavenging for supplies. One picture set off a firestorm that showed one couple "finding supplies" while another showed a young black man "looting supplies."
+
 ![Hurricane Katrina](./looting_or_finding.jpg)
 
 ### Solution
@@ -80,6 +81,12 @@ Currently, the extension monitors the slant from the following media outlets:
 *"Uh oh, we need to rethink our stategy"* - Fox News Correspondent  
 
 ### Like what you see?
+We are always looking for ways to expand this extension. Feel free to fork it and add your own spin on this awesome tool!
+
+Read more about how slant scores and media bias are created
+-[Tim Groseclose Blog on Slant Quotients](http://timgroseclose.wpengine.com/explanation-of-sqs/)
+-[Research on Media Bias from Gentzkow and Shapiro](http://faculty.chicagobooth.edu/jesse.shapiro/research/biasmeas.pdf)
+-[Rioting, Uprising, or Disturbance?](http://www.nytimes.com/live/confrontation-in-baltimore/riot-uprising-or-disturbance/)
 
 
 
