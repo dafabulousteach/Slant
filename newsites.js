@@ -1,0 +1,22 @@
+{
+'ABC Good Morning America': 56.1,
+'ABC World News Tonight': 61.0,
+'CBS Early Show': 66.6,
+'CBS Evening News': 73.7,
+'CNN NewsNight with Aaron Brown': 56.0,
+'Drudge Report': 60.4,
+'Fox News Spec. Rept. w/ Brit Hume': 39.7,
+'Los Angeles Times': 70.0,
+'NBC Nightly News': 61.6,
+'NBC Today Show': 64.0,
+'New York Times': 73.7,
+'Newshour with Jim Lehrer': 55.8,
+'Newsweek':66.3,
+'NPR Morning Edition': 66.3,
+'Time Magazine': 65.4,
+'U.S. News and World Report': 65.8,
+'USA Today': 63.4,
+'Wall Street Journal': 85.1,
+'Washington Post': 66.6, 
+'Washington Times': 35.4
+};
