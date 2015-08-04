@@ -1,8 +1,6 @@
-var views = chrome.extension.getViews({type: "popup"});
-  for (var i = 0; i < views.length; i++) {
-    views[i].document.getElementById('score').innerHTML="The slant score is: 61";
-}
+chrome.runtime.onMessage.addListener(function(msg, sender){
+  if((msg.from === 'content_scripts') && (msg.subject === 'showPageAction')){
+      chrome.pageAction.show(sender.tab.id);
+  }
+});
 
-// chrome.runtime.onConnect.addListener(function(port){
-//   port.postMessage({greeting:"hello"});
-// });
