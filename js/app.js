@@ -10,7 +10,11 @@ var getURL = function(tabURL){
   return message;
 };
 
+
+chrome.runtime.sendMessage({greeting: "hello"}, function(response) {
+    console.log('Extension is working');
 chrome.browserAction.onClicked.addListener(function(tab){
+	console.log('I heard a click at runtime');
   chrome.tabs.query({currentWindow: true, active: true},  function(tabs){
     var tabURL = tabs[0].url;
     getURL(tabURL);
@@ -18,8 +22,13 @@ chrome.browserAction.onClicked.addListener(function(tab){
   
 });
 
-chrome.runtime.sendMessage({greeting: "hello"}, function(response) {
-    console.log('Extension is working');
     return true;
 });
+
+// var port = chrome.runtime.connect({name:"mycontentscript"});
+// port.onMessage.addListener(function(message,sender){
+//   if(message.greeting === "hello"){
+//     alert(message.greeting);
+//   }
+// });
 
