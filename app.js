@@ -11,3 +11,6 @@
 // {
 //     $(this).text('The icon has been clicked');
 // });
+
+console.log('your extension is running');
+
