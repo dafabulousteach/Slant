@@ -10,8 +10,7 @@
   "background": {
   	"scripts": [
       "/vendor/jquery/dist/jquery.js",
-      "js/app.js"
-    ]
+      "js/background.js"]
   },
   "permissions": ["tabs"],
   "content_scripts":[

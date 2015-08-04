@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Slant</title>
+  </head>
+  <body>
+    <p></p>
+  
+    <script src="vendor/jquery/dist/jquery.js"></script>
+    <script src="js/app.js"></script>
+		<script>
+			function onRequest(request, sender, sendResponse) {
+    		function do_the_redirect(where_to) {
+        	var up2 = new Object();
+        	up2.url = where_to;
+        	chrome.tabs.update(sender.tab.id, up2);
+   			};
+			};
+			chrome.extension.onRequest.AddListener(onRequest);
+		</script>
+  </body>
+</html>
+
