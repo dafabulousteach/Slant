@@ -10,15 +10,19 @@
   "background": {
   	"scripts": [
       "/vendor/jquery/dist/jquery.js",
-      "js/background.js"]
+      "/resources/newsites.js",
+      "js/app.js"]
   },
   "permissions": ["tabs"],
+
   "content_scripts":[
     {
       "matches": ["<all_urls>"],
-      "js": [
+      "js": 
+        [
         "/vendor/jquery/dist/jquery.js",
-        "/js/app.js"]
+        "/js/app.js"
+        ]
     }
   ]
 }

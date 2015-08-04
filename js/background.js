@@ -1,8 +1,10 @@
-function onRequest(request, sender, sendResponse) {
-  function do_the_redirect(where_to) {
-    var up2 = new Object();
-      up2.url = where_to;
-      chrome.tabs.update(sender.tab.id, up2);
-   };
-};
-chrome.extension.onRequest.addListener(onRequest);
+
+// chrome.browserAction.onClicked.addListener(function (tab) { //Fired when User Clicks ICON
+//     if (tab.url.indexOf("https://www.google.co.in/") != -1) { // Inspect whether the place where user clicked matches with our list of URL
+//         chrome.tabs.executeScript(tab.id, {
+//             "file": "app.js"
+//         }, function () { // Execute your code
+//             console.log("Script Executed .. "); // Notification on Completion
+//         });
+//     }
+// });
