@@ -1,10 +1,5 @@
+var views = chrome.extension.getViews({type: "popup"});
+  for (var i = 0; i < views.length; i++) {
+    views[i].document.getElementById('score').innerHTML="The slant score is: 61";
+}
 
-// chrome.browserAction.onClicked.addListener(function (tab) { //Fired when User Clicks ICON
-//     if (tab.url.indexOf("https://www.google.co.in/") != -1) { // Inspect whether the place where user clicked matches with our list of URL
-//         chrome.tabs.executeScript(tab.id, {
-//             "file": "app.js"
-//         }, function () { // Execute your code
-//             console.log("Script Executed .. "); // Notification on Completion
-//         });
-//     }
-// });

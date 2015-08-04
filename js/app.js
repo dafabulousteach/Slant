@@ -7,7 +7,7 @@ var getURL = function(tabURL){
     }
   }
   var message = str + '' + match;
-  console.log(message);
+  return message;
 };
 
 chrome.browserAction.onClicked.addListener(function(tab){
