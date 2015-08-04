@@ -16,9 +16,9 @@ chrome.browserAction.onClicked.addListener(function(tab){
   chrome.tabs.query({currentWindow: true, active: true},  function(tabs){
     var tabURL = tabs[0].url;
     getURL(tabURL);
-  // var newURL = "/popups/index.html";
-  // chrome.tabs.create({ url: newURL});
-  // });
+    var newURL = "/popups/index.html";
+    chrome.tabs.create({ url: newURL});
+  });
 
 });
 
