@@ -76,11 +76,6 @@ Currently, the extension monitors the slant from the following media outlets:
 9. Visit a news site and click on the Slant icon to see its slant score
 
 
-### What Are Users Saying?
-*"I use it all the time in my Journalism class"* - Professor Martinez, Columbia School of Journalism
-
-*"Uh oh, we need to rethink our stategy"* - Fox News Correspondent  
-
 ### Like what you see?
 We are always looking for ways to expand this extension. Feel free to fork it and add your own spin on this awesome tool!
 
