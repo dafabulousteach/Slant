@@ -15,7 +15,7 @@ To find out more out, read about slant score on the [Freakanomics blog](http://g
 ### Problem
 I was drawn to the exploration of media bias since Hurricane Katrina devastated New Orleans. Images poured out from various media outlets of survivors scavenging for supplies. One picture set off a firestorm that showed one couple "finding supplies" while another showed a young black man "looting supplies."
 
-![Hurricane Katrina](./resources/looting_or_finding.jpg)
+![Hurricane Katrina](https://media.salon.com/2005/09/looting_or_finding.jpg)
 
 ### Solution
 This is the idea for the project: to provide users with an accessible way to determine how biased their news sources are without ever leaving the page.
