@@ -21,7 +21,7 @@
     "gulp-karma": "0.0.4",
     "gulp-nodemon": "^1.0.4",
     "gulp-shell": "^0.2.7",
-    "jquery": "~2.1.4" ,
+    "jquery": "~3.0.0" ,
     "jshint-stylish": "^0.2.0"
   },
   "dependencies": {
